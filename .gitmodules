@@ -1,6 +1,3 @@
-[submodule "dot-vimrc"]
-	path = dot-vimrc
-	url = https://github.com/chichunchen/dot-vimrc.git
 [submodule "tmux-config"]
 	path = tmux-config
 	url = https://github.com/chichunchen/tmux-config.git
