@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # backup old vim files
-mv ~/.vim ~/dotfiles/backup/.vim.orig
-mv ~/.vimrc ~/dotfiles/backup/.vimrc.orig
+mv ~/.vim ~/dotfile/backup/.vim.orig
+mv ~/.vimrc ~/dotfile/backup/.vimrc.orig
 
 # link vim files to home directory
 mkdir ~/.vim

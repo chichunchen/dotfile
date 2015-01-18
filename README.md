@@ -2,7 +2,7 @@
 
 ## Installation
 
-    git clone https://github.com/chichunchen/dotfiles.git ~/dotfile
+    git clone https://github.com/chichunchen/dotfile.git ~/dotfile
 
 ### Vim
 
