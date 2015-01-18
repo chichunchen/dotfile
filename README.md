@@ -6,6 +6,8 @@
 
 ### Zsh
 
+    sh zsh.sh
+
 ### Tmux
 
 ### Vim
@@ -15,7 +17,7 @@
 Install bundles. Launch vim(ignore the errors and they will disappear after installing needed plugins)and run:
 
     :BundleInstall
-    
+
 ## Reference
 
 https://github.com/humiaozuzu/dot-vimrc
