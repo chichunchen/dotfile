@@ -1,1 +1,14 @@
-/backup
+/backup/*
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thunbnail cache files
+._*
+Tunmbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
