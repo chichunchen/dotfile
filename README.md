@@ -14,6 +14,10 @@
 
     sh vim.sh
 
+### RVM
+
+    \curl -sSL https://get.rvm.io | bash -s stable
+
 Install bundles. Launch vim(ignore the errors and they will disappear after installing needed plugins)and run:
 
     :BundleInstall
