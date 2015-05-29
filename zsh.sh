@@ -1,11 +1,17 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-# Set Zsh as default shell
-chsh -s /bin/zsh
+# Set zsh as default shell
+chsh -s /usr/bin/zsh
 
 # Install oh-my-zsh from curl
-curl -L http://install.ohmyz.sh | sh
+if [ ! -d ~/.oh-my-zsh ];
+then
+    curl -L http://install.ohmyz.sh | sh
+fi
 
-# link oh-my-zsh custom files
-ln -s oh-my-zsh-custom/* ~/.oh-my-zsh/custom/
+if [ -f ~/.zshrc ]; then
+    mv ~/.zshrc ~/.zshrc-bak
+fi
 
+cp ./zshrc-for-linux ~/.zshrc
+source ~/.zshrc
