@@ -12,9 +12,7 @@ git submodule update
 cd ~/.tmux/vendor/tmux-mem-cpu-load
 
 # check whether the environment has cmake or not
-if [[-x /usr/bin/cmake ]]; then
-    #statements
-else
+if [ ! -x /usr/bin/cmake ]; then
     sudo apt-get install cmake
 fi
 cmake .

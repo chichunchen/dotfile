@@ -2,7 +2,7 @@
 
 ## Installation
 
-    git clone https://github.com/chichunchen/dotfile.git ~/dotfile
+    git clone https://github.com/chichunchen/dotfile.git ~/.dotfile
 
 ### Zsh
 
@@ -10,9 +10,15 @@
 
 ### Tmux
 
+    sh tmux.sh
+
 ### Vim
 
     sh vim.sh
+
+### Git
+
+    sh git-config/git.sh
 
 ### RVM
 
