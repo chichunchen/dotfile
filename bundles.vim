@@ -60,10 +60,10 @@ Bundle 'nvie/vim-togglemouse'
 " Syntax/Indent for language enhancement
 "----------------------------------------
 "------- web backend ---------
-Bundle '2072/PHP-Indenting-for-VIm'
-"Bundle 'tpope/vim-rails'
+" Bundle '2072/PHP-Indenting-for-VIm'
+Bundle 'tpope/vim-rails'
 Bundle 'lepture/vim-jinja'
-"Bundle 'digitaltoad/vim-jade'
+" Bundle 'digitaltoad/vim-jade'
 
 "------- web frontend ----------
 Bundle 'othree/html5.vim'
@@ -80,7 +80,7 @@ Bundle 'tpope/vim-markdown'
 " Bundle 'timcharper/textile.vim'
 
 "------- Ruby --------
-" Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-endwise'
 
 "------- Go ----------
 Bundle 'fatih/vim-go'
