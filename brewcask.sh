@@ -29,3 +29,5 @@ brew cask install vlc
 brew cask install flux
 brew cask install spotify
 brew cask install android-file-transfer
+brew cask install caffeine
+brew cask insatll bettertouchtool
