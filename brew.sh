@@ -27,6 +27,7 @@ brew install gnu-sed --with-default-names
 brew install wget --with-iri
 
 # Install other useful binaries.
+brew insatll zsh
 brew install git
 brew install git-extras
 brew install htop-osx
@@ -41,6 +42,7 @@ brew install fortune
 brew install irssi
 brew install mysql
 brew install node
+brew install mongo
 brew install openssl
 brew install reattach-to-user-namespace
 brew install speedtest_cli
