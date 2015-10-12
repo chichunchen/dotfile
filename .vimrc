@@ -266,3 +266,6 @@ if has("gui_running")
     map <D-9> 9gt
     map <D-0> :tablast<CR>
 endif
+
+" for other apps
+map <F1> :silent !open '/Applications/Vim Cheatsheet.app/'<CR>

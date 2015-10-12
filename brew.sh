@@ -41,6 +41,7 @@ brew install figlet
 brew install fortune
 brew install irssi
 brew install mysql
+brew install postgresql
 brew install node
 brew install mongo
 brew install openssl
@@ -51,9 +52,12 @@ brew install valgrind
 brew install sqlite
 brew install python3
 brew install rar
+# it will takes several hours to compile gcc
+# brew install gcc
 
 # Install more recent versions of some OS X tools.
 brew install vim --override-system-vi
+# brew install vim --with-override-system-vim
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 

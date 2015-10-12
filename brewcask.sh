@@ -6,7 +6,7 @@ brew install brew-cask
 
 # browser
 brew install cask google-chrome
-brew install cask firefox-aurora
+brew install cask firefox
 brew install cask welly
 brew insatll cask dropbox
 
@@ -21,6 +21,7 @@ brew cask install virtualbox
 brew cask install slack
 brew cask install github
 brew cask install macdown
+brew cask install atom
 
 # other
 brew cask install the-unarchiver
