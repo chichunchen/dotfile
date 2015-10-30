@@ -22,6 +22,7 @@ brew cask install slack
 brew cask install github
 brew cask install macdown
 brew cask install atom
+brew cask install wireshark
 
 # other
 brew cask install the-unarchiver
