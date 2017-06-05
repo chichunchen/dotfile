@@ -16,6 +16,10 @@
 
     sh vim.sh
 
+Install bundles. Launch vim(ignore the errors and they will disappear after installing needed plugins)and run:
+
+    :BundleInstall
+
 ### Git
 
     sh git-config/git.sh
@@ -24,14 +28,8 @@
 
     \curl -sSL https://get.rvm.io | bash -s stable
 
-Install bundles. Launch vim(ignore the errors and they will disappear after installing needed plugins)and run:
-
-    :BundleInstall
-
 ## Reference
 
-https://github.com/humiaozuzu/dot-vimrc
-
-https://github.com/tony/tmux-config
-
-https://github.com/robbyrussell/oh-my-zsh
+- https://github.com/humiaozuzu/dot-vimrc
+- https://github.com/tony/tmux-config
+- https://github.com/robbyrussell/oh-my-zsh

@@ -2,6 +2,7 @@
 
 git clone https://github.com/tony/tmux-config.git ~/.tmux
 
+mv ~/.tmux.conf ~/.tmux/.tmux.conf.bak
 ln ~/.tmux/.tmux.conf ~/.tmux.conf
 cd ~/.tmux
 
