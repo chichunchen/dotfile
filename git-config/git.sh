@@ -12,7 +12,8 @@ cp ~/.dotfile/git-config/gitconfig ~/.gitconfig
 
 email=`git config user.email`
 name=`git config user.name`
+
 if [ -n "$email" ] && [ -n "$name" ]; 
 then
-    echo "Finish git setup work."
+    echo "### Finish git setup work. ###"
 fi
