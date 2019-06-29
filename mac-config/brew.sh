@@ -20,46 +20,27 @@ brew upgrade
 brew install bash
 brew install bash-completion
 
-# Install GNU `sed`, overwriting the built-in `sed`.
-brew install gnu-sed --with-default-names
-
-# Install `wget` with IRI support.
-brew install wget --with-iri
-
-# Install other useful binaries.
+# Install languages
 brew insatll zsh
+brew install python3
+brew install python
+brew install node
+
+# Install tools
+brew install wget
+brew install curl
 brew install git
 brew install git-extras
 brew install htop-osx
 brew install ack
-brew install exiv2
-brew install git
 brew install imagemagick --with-webp
 brew install tree
 brew install cmake
-brew install figlet
-brew install fortune
-brew install irssi
-brew install mysql
-brew install postgresql
-brew install node
-brew install mongo
 brew install openssl
-brew install reattach-to-user-namespace
 brew install speedtest_cli
 brew install tmux
-brew install valgrind
 brew install sqlite
-brew install python3
-brew install rar
-# it will takes several hours to compile gcc
-# brew install gcc
-
-# Install more recent versions of some OS X tools.
-brew install vim --override-system-vi
-# brew install vim --with-override-system-vim
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
+brew install vagrant
 
 # Remove outdated versions from the cellar.
 brew cleanup
