@@ -1,35 +1,12 @@
-# dotfiles
+# my-config
 
-## Installation
-
-    git clone https://github.com/chichunchen/dotfile.git ~/.dotfile
-
-### Zsh
-
-    sh zsh.sh
-
-### Tmux
-
-    sh tmux.sh
-
-### Vim
-
-    sh vim.sh
-
-Install bundles. Launch vim(ignore the errors and they will disappear after installing needed plugins)and run:
-
-    :BundleInstall
-
-### Git
-
-    sh git-config/git.sh
-
-### RVM
-
-    \curl -sSL https://get.rvm.io | bash -s stable
-
-## Reference
-
-- https://github.com/humiaozuzu/dot-vimrc
-- https://github.com/tony/tmux-config
-- https://github.com/robbyrussell/oh-my-zsh
+```
+# clone
+git clone https://github.com/chichunchen/dotfile.git ~/.dotfile
+cd git-config/
+sh git.sh
+cd ../vim-config
+sh vim.sh
+# Need to update tmux.sh
+# sh tmux.sh
+```
