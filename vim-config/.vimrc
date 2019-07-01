@@ -16,7 +16,9 @@ autocmd BufEnter *.hpp :setlocal filetype=cpp
 
 " Install Plugins
 call plug#begin('~/.vim/plugged')
+
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
@@ -25,6 +27,9 @@ Plug 'kien/rainbow_parentheses.vim'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 
 call plug#end()
 
@@ -35,7 +40,7 @@ map <C-n> :NERDTreeToggle<CR>
 map <C-e> :Files<CR>
 
 " auto completion
-let g:UltiSnipsExpandTrigger = "<C-l>"
+let g:UltiSnipsExpandTrigger = "<tab>"
 let g:UltiSnipsJumpForwardTrigger = "<C-j>"
 let g:UltiSnipsJumpBackwardTrigger = "<C-k>"
 
