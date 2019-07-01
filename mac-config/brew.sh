@@ -35,6 +35,7 @@ brew install htop-osx
 brew install ack
 brew install imagemagick --with-webp
 brew install tree
+brew install ninja
 brew install cmake
 brew install openssl
 brew install speedtest_cli
